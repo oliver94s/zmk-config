@@ -123,7 +123,7 @@
 
         raise_layer {
             bindings = <
-                &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &trans      &trans      &trans      &kp MINUS   &kp PLUS  
+                &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &trans      &trans      &trans      &kp MINUS   &kp EQUAL  
                 &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &kp HOME    &kp UARW    &kp LBKT    &kp RBKT    &kp BSLH
                 &trans      &trans      &trans      &trans      &trans      &trans      &kp C_VOL_UP    &kp BSPC    &kp LARW    &kp DARW    &kp RARW    &kp APOS    &trans 
                 &trans      &trans      &trans      &trans      &trans      &trans      &kp C_MUTE      &trans      &trans      &trans      &trans      &trans      &kp DQT 
