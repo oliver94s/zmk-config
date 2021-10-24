@@ -83,9 +83,9 @@
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R     &kp T                     &kp Y       &kp U       &kp I       &kp O       &kp P       &kp BSLH
                 &kp LOWER   &kp A       &kp S       &kp D       &kp F     &kp G       &kp RARW      &kp H       &kp J       &kp K       &kp L       &kp SCLN    &kp RET
                 &kp LSFT    &kp Z       &kp X       &kp C       &kp V     &kp B       &kp K_MUTE    &kp N       &kp M       &kp CMMA    &kp DOT     &kp FSLH    &mt RSFT SQT
-                            &kp LGUI    &kp LGUI    &kp LALT    &mo LCTL &kp SPC                   &kp SPC     &mo RAISE   &kp RALT    &kp DARW    &kp UARW
+                            &kp LGUI    &kp LGUI    &kp LALT    &mo LCTL  &kp SPC                   &kp SPC     &mo RAISE   &kp RALT    &kp DARW    &kp UARW
             >;
-            sensor-bindings = <& C_VOL_UP C_VOL_DN &inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
         };
 
         mod_layer {
@@ -113,8 +113,8 @@
         lower_layer {
             bindings = <
                 &kp GRAV    &kp F1      &kp F2      &kp F3      &kp F4      &kp F5                  &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11  
-                &kp BKSP    &kp FSLH    &kp UARW   &kp NUM_8   &kp NUM_9   &kp PLUS                 &kp CARET   &kp LBKT    &kp RBKT    &kp AT      &kp EXCL    &trans
-                &kp trans   &kp LARW   &kp DARW   &kp RARW   &kp NUM_6   &kp MINUS      &kp UARW    &kp PIPE    &kp DEL    &kp HOME    &kp END    &kp TILDE   &trans
+                &kp BKSP    &kp FSLH    &kp UARW    &kp NUM_8   &kp NUM_9   &kp PLUS                &kp CARET   &kp LBKT    &kp RBKT    &kp AT      &kp EXCL    &trans
+                &kp trans   &kp LARW    &kp DARW    &kp RARW    &kp NUM_6   &kp MINUS   &kp UARW    &kp PIPE    &kp DEL     &kp HOME    &kp END     &kp TILDE   &trans
                 &kp DOT     &kp STAR    &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp UNDER   &kp K_MUTE  &kp GRAV    &kp LBRC    &kp RBRC    &kp AMPS    &kp PRCNT   &kp SQT
                             &trans      &trans      &trans      &trans      &trans                  &trans      &mo ADJUST  &trans      &trans      &trans
             >;
@@ -123,8 +123,8 @@
 
         raise_layer {
             bindings = <
-                &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &trans      &trans      &MINUS      &kp PLUS   &kp trans  
-                &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &kp HOME    &kp UARW    &kp LBKT     &kp RBKT     &kp BSLH
+                &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &trans      &trans      &MINUS      &kp PLUS    &kp trans  
+                &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &kp HOME    &kp UARW    &kp LBKT    &kp RBKT    &kp BSLH
                 &trans      &trans      &trans      &trans      &trans      &trans      &kp C_VOL_UP    &kp BSPC    &kp LARW    &kp DARW    &kp RARW    &kp APOS    &trans 
                 &trans      &trans      &trans      &trans      &trans      &trans      &kp K_MUTE      &trans      &trans      &trans      &trans      &trans      &kp DQT 
                             &trans      &trans      &trans      &mo ADJUST  &trans                      &trans      &trans      &trans      &trans      &trans
