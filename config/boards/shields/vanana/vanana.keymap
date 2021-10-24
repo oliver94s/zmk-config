@@ -114,7 +114,7 @@
             bindings = <
                 &kp GRAV    &kp F1      &kp F2      &kp F3      &kp F4      &kp F5                  &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11  
                 &kp BKSP    &kp FSLH    &kp UARW    &kp NUM_8   &kp NUM_9   &kp PLUS                &kp CARET   &kp LBKT    &kp RBKT    &kp AT      &kp EXCL    &trans
-                &kp trans   &kp LARW    &kp DARW    &kp RARW    &kp NUM_6   &kp MINUS   &kp UARW    &kp PIPE    &kp DEL     &kp HOME    &kp END     &kp TILDE   &trans
+                &trans   &kp LARW    &kp DARW    &kp RARW    &kp NUM_6   &kp MINUS   &kp UARW    &kp PIPE    &kp DEL     &kp HOME    &kp END     &kp TILDE   &trans
                 &kp DOT     &kp STAR    &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp UNDER   &kp C_MUTE  &kp GRAV    &kp LBRC    &kp RBRC    &kp AMPS    &kp PRCNT   &kp SQT
                             &trans      &trans      &trans      &trans      &trans                  &trans      &mo ADJUST  &trans      &trans      &trans
             >;
@@ -123,7 +123,7 @@
 
         raise_layer {
             bindings = <
-                &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &trans      &trans      &MINUS      &kp PLUS    &kp trans  
+                &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &trans      &trans      &MINUS      &kp PLUS    &trans  
                 &trans      &trans      &trans      &trans      &trans      &trans                      &trans      &kp HOME    &kp UARW    &kp LBKT    &kp RBKT    &kp BSLH
                 &trans      &trans      &trans      &trans      &trans      &trans      &kp C_VOL_UP    &kp BSPC    &kp LARW    &kp DARW    &kp RARW    &kp APOS    &trans 
                 &trans      &trans      &trans      &trans      &trans      &trans      &kp C_MUTE      &trans      &trans      &trans      &trans      &trans      &kp DQT 
